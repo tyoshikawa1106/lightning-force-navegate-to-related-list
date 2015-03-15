@@ -1,0 +1,11 @@
+<aura:component >
+    <aura:attribute name="item" type="account" />
+    <aura:attribute name="index" type="Integer" />
+    <tr>
+        <td class="indexCol">{!v.index}</td>
+        <td>{!v.item.Name}</td>
+        <td class="btnCol">
+            <ui:button label="Related Contacts" press="{!c.gotoRelatedList}" />
+        </td>
+    </tr>
+</aura:component>

@@ -1,0 +1,23 @@
+.THIS {
+    padding: 5px;
+}
+
+.THIS .auraTable {
+    width: 100%;
+}
+
+.THIS .auraTable th,
+.THIS .auraTable td {
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.THIS .indexCol {
+    width: 80px;
+}
+
+.THIS .btnCol {
+    width: 200px;
+}
